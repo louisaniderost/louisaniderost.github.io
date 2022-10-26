@@ -1,0 +1,107 @@
+body { 
+  background-image: url(00.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+ul{
+float:left;
+text-align: center;
+list-style-type: none;
+margin: 40px 1350px 20px 0px;
+}
+
+ul li{
+display: inline-block;
+padding: 0px 50px 0px 50px;
+}
+
+ul li a{
+font-size: 20px;
+font-family: Times New Roman;
+text-decoration: none;
+cursor: pointer;
+padding: 10px 30px;
+border: 2px solid aqua;
+color: aqua;
+background-color: white;
+border-radius: 12px;
+}
+
+ul li a:hover{
+background-color: SeaGreen;
+color: aqua;
+transition-duration: 1.5s;
+}
+
+header{
+font-size: 60px;
+text-align: center;
+color: white;
+font-family: georgia;
+}
+
+header:hover{
+color: SeaGreen;
+transition: 1s;
+}
+
+.left{
+margin: 10px 50px 0px 50px;
+}
+
+.mid{
+margin: 0px 0px 0px 0px;
+color: white;
+text-align: center;
+}
+
+.about{
+text-align: center;
+text-align: justify;
+text-align-last: center;
+margin: 0 auto;
+width: 30em;
+padding: 10px 0px 0px 0px;
+color: seagreen;
+}
+
+img {
+border-radius: 50%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: right;
+  width: 30%;
+  padding: 5px;
+}
+.column :hover{
+background-color: white;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+p{
+font-family: georgia;
+font-size: 30px;
+}
+
+p a{
+color: white;
+text-decoration:none;
+}
+
+p a:hover{
+background-color: SeaGreen;
+color: Aqua;
+}
