@@ -48,45 +48,61 @@ color: SeaGreen;
 transition: 1s;
 }
 
-h4{
-text-align: center;
-color: white;
-font-family: georgia;
-font-size: 40px;
+.left{
+margin: 10px 50px 0px 50px;
+}
+
+.mid{
 margin: 0px 0px 0px 0px;
-padding: 0px 0px 0px 0px;
-}
-
-h4:hover{
-color: SeaGreen;
-transition: 1s;
-}
-
-img {
-width:45%;
-height:45%;
-border-radius: 50px;
-margin: 20px 50px 50px 50px;
-}
-
-.first{
-float: right;
-font-size: 40px;
-text-align: center;
 color: white;
-font-family: georgia;
-margin: 0px 225px 0px 0px;
+text-align: center;
 }
 
-.second{
-float: left;
+.about{
 text-align: center;
 text-align: justify;
 text-align-last: center;
 margin: 0 auto;
 width: 30em;
-padding: 50px 0px 0px 35px;
+padding: 10px 0px 0px 0px;
+color: seagreen;
+}
+
+img {
+border-radius: 50%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: right;
+  width: 30%;
+  padding: 5px;
+}
+.column :hover{
+background-color: white;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+p{
 font-family: georgia;
-color: white;
 font-size: 30px;
+}
+
+p a{
+color: white;
+text-decoration:none;
+}
+
+p a:hover{
+background-color: SeaGreen;
+color: Aqua;
 }
